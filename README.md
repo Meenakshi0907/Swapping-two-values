@@ -18,8 +18,18 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
+```
+#Program to find the solution for the given linear equations.
+#Developed by:Meenakshi M 
+#RegisterNumber:21003572
+import numpy as np
+A=np.array([[1,3],[2,5]])
+B=np.array([5,-3])
+sol=np.linalg.solve(A,B)
+print(sol)
+```
+## OUTPUT:
+![Output](./images/Output.png)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
