@@ -19,14 +19,13 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
-#Program to find the solution for the given linear equations.
-#Developed by:Meenakshi M 
+#Program to swap two values.
+#Developed by:Meenakshi 
 #RegisterNumber:21003572
-import numpy as np
-A=np.array([[1,3],[2,5]])
-B=np.array([5,-3])
-sol=np.linalg.solve(A,B)
-print(sol)
+a=int(input())
+b=int(input())
+a,b=b,a
+print("Swapped values are: {0} {1}".format(a,b))
 ```
 ## OUTPUT:
 ![Output](./images/swapping.png)
